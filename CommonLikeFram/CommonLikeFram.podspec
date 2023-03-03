@@ -80,7 +80,9 @@ This description is used to generate tags and improve search results.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/himanhsu50/CommonLikeFram.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/himanhsu50/CommonLikeFram.git",
+  :branch => 'main',
+ :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
